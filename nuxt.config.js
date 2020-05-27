@@ -39,7 +39,7 @@ module.exports = {
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-    script: [{ src: "https://kit.fontawesome.com/d33a83f69c.js" }],
+    // script: [{ src: "https://kit.fontawesome.com/d33a83f69c.js" }],
   },
   /*
    ** Customize the progress-bar color
@@ -48,7 +48,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ["@/assets/scss/main.scss"],
+  css: ["@/assets/scss/main.scss", "@/assets/css/icons.css"],
   styleResources: {
     scss: ["@/assets/scss/variables.scss"],
   },
